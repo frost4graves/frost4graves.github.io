@@ -1313,7 +1313,7 @@ pre code {
   }
 
   .logo a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .logo img {
@@ -1328,7 +1328,7 @@ pre code {
 
   #menu a {
     padding: 0.25rem 0.4rem;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   #menu a:focus,
@@ -1421,5 +1421,16 @@ pre code {
   #theme-toggle svg {
     width: 10px;
     height: 10px;
+  }
+}
+
+@media (max-width: 343px) {
+  #menu a {
+    padding: 0.18rem 0.3rem;
+    font-size: 0.7rem;
+  }
+
+  .logo a {
+    font-size: 0.8rem;
   }
 }
